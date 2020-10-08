@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
         const li = document.createElement('li')
         const ul = document.querySelector('#dog-breeds')
         li.innerText = breed
-        li.addEventListener('click', function(){
+        li.addEventListener('mouseover', function(){
             li.style.color = getRandomColor()
             li.style.backgroundColor = getRandomColor()
         })
